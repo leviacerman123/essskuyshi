@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: monospace;
+}
+.container{
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav{
+    margin-top: 70px;
+}
+li{
+    font-size: 32px;
+}
+h1{
+    font-size: 64px;
+    margin-top: 128px;
+    text-align: center;
+}
+.card{
+    background: #FF0000;
+    width: 558px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 54px;
+}
+.allcard{
+    display: flex;
+    gap: 190px;
+    margin-top: 128px
+}
+footer{
+    padding: 95px 0;
+}
